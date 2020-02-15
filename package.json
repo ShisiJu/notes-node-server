@@ -1,0 +1,22 @@
+{
+  "name": "notes-node-server",
+  "version": "1.0.0",
+  "description": "nodejs 项目用于给前端提供api接口；",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShisiJu/notes-node-server.git"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "jushisi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ShisiJu/notes-node-server/issues"
+  },
+  "homepage": "https://github.com/ShisiJu/notes-node-server#readme"
+}
