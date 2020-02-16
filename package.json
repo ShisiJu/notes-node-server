@@ -2,9 +2,11 @@
   "name": "notes-node-server",
   "version": "1.0.0",
   "description": "nodejs 项目用于给前端提供api接口；",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "cross-env NODE_ENV=development node ./bin/www",
+    "prod": "cross-env NODE_ENV=production node ./bin/www"
   },
   "repository": {
     "type": "git",
@@ -18,5 +20,13 @@
   "bugs": {
     "url": "https://github.com/ShisiJu/notes-node-server/issues"
   },
-  "homepage": "https://github.com/ShisiJu/notes-node-server#readme"
+  "homepage": "https://github.com/ShisiJu/notes-node-server#readme",
+  "devDependencies": {
+    "cross-env": "^7.0.0"
+  },
+  "dependencies": {
+    "pg": "^7.18.1",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^5.21.4"
+  }
 }
